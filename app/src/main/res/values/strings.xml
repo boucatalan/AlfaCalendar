@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Alfa Calendar</string>
+    <string name="user_nameHint">User name</string>
+    <string name="password">Password</string>
+    <string name="insert_password">Password:</string>
+    <string name="text_user">User:</string>
+    <string name="log_in">LOG IN</string>
+    <string name="remember">Remember</string>
+    <string name="txt_remember">I don\'t remember my password</string>
+    <string name="register">Register</string>
 </resources>
