@@ -29,14 +29,14 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="6dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="@string/password"
+        android:hint="@string/text_password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPwd"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPwd" />
 
     <TextView
         android:id="@+id/txtPwd"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
-        android:text="@string/insert_password"
+        android:text="@string/text_password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtBoxUser" />
 
@@ -107,7 +107,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
-        android:text="@string/register"
+        android:text="@string/txt_register"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintEnd_toEndOf="parent"
