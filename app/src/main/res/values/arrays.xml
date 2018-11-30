@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_Activities">
+        <item>Cardio</item>
+        <item>Speed 2.0</item>
+        <item>Total body circuit</item>
+        <item>AB Intervals</item>
+        <item>Lower focus</item>
+    </string-array>
+</resources>

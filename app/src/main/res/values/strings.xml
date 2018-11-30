@@ -7,4 +7,17 @@
     <string name="remember">Remember</string>
     <string name="txt_remember">I don\'t remember my password</string>
     <string name="txt_register">Register</string>
+    <string name="title_activity_daily">DailyActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="txt_month">Month</string>
+    <string name="txt_dayNumber">0</string>
+    <string name="txt_dayName">dayName</string>
+    <string name="txt_Activity">Activitat</string>
+    <string name="txt_firstSession">First Session</string>
+    <string name="txt_secondSession">Second Session</string>
+    <string name="txt_Save">Save</string>
+    <string name="txt_Day">Day</string>
+    <string name="txt_week">Week</string>
 </resources>

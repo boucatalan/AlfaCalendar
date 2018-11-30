@@ -8,11 +8,11 @@
 
     <EditText
         android:id="@+id/txtBoxUser"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="32dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/user_nameHint"
@@ -24,11 +24,11 @@
 
     <EditText
         android:id="@+id/txtBoxPwd"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="6dp"
+        android:layout_marginEnd="32dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/text_password"
@@ -122,6 +122,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/txt_remember"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/btnRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
