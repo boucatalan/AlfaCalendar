@@ -7,4 +7,20 @@
     <string name="remember">Remember</string>
     <string name="txt_remember">I don\'t remember my password</string>
     <string name="txt_register">Register</string>
+    <string name="register">Register</string>
+    <string name="user">User</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="password">Password</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="date">dd/mm/aaaa</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="e_mail">E-mail</string>
+    <string name="e_mail">E-mail</string>
+    <string name="terms">Terms of Use</string>
+    <string name="check">Agree</string>
+    <string name="register">Register</string>
 </resources>

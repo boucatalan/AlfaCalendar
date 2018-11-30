@@ -14,12 +14,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint="User"
+        android:hint="@string/user"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/txtPwd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.418"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/txtUser"
@@ -62,7 +63,7 @@
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Register"
+        android:text="@string/register"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/txtUser"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,10 +83,25 @@
         android:id="@+id/txtBoxBirth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="dd/mm/aaaa"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtGender"
+        tools:layout_editor_absoluteX="72dp" />
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
         tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="269dp" />
+        tools:layout_editor_absoluteY="352dp" />
+
+    <RadioGroup
+        android:layout_width="378dp"
+        android:layout_height="35dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="380dp" />
 
 </android.support.constraint.ConstraintLayout>
