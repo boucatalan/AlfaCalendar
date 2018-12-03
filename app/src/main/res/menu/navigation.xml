@@ -10,6 +10,6 @@
         android:title="@string/txt_week" />
     <item
         android:id="@+id/navigation_month"
-        android:title="@string/txt_month" />
+        android:title="@string/month" />
 
 </menu>

@@ -66,12 +66,10 @@
         app:layout_constraintTop_toBottomOf="@+id/txtDayNumber" />
 
     <Spinner
-        android:id="@+id/spinnerActivities"
+        android:id="@+id/spinner2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:entries="@array/array_Activities"
-        android:padding="8dp"
         android:popupBackground="@color/colorPrimaryLight"
         android:spinnerMode="dialog"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +135,7 @@
         app:layout_constraintEnd_toStartOf="@+id/txtSecondSession"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinnerActivities" />
+        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
 
     <TextView
         android:id="@+id/txtSecondSession"
