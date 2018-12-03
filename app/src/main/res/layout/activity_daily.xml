@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:background="?android:attr/windowBackground"
         app:itemBackground="@color/colorPrimary"
+        app:itemHorizontalTranslation="false"
         app:itemIconTint="@android:color/white"
         app:itemTextColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -67,11 +68,17 @@
 
     <Spinner
         android:id="@+id/spinner2"
+        style="@style/Widget.AppCompat.Spinner.DropDown"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
+        android:entries="@array/array_Activities"
+        android:minWidth="30dp"
+        android:padding="10dp"
         android:popupBackground="@color/colorPrimaryLight"
         android:spinnerMode="dialog"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDayName" />
@@ -130,6 +137,7 @@
         android:layout_marginEnd="16dp"
         android:text="@string/txt_firstSession"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/pntActivity1"
         app:layout_constraintEnd_toStartOf="@+id/txtSecondSession"
